@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 350px;
+  width: 400px;
+  border-radius: 15px;
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  font-family: 'Roboto';
+}
+
+.count {
+  color: #0f172a;
+  font-size: 35px;
+}
+
+.number-eveodd {
+  color: #334155;
+  font-size: 20px;
+}
+
+.button {
+  color: #1e293b;
+  font-size: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+  padding-right: 35px;
+  padding-left: 35px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.note {
+  color: #334155;
+  font-size: 15px;
+}
